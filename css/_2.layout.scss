@@ -1,0 +1,75 @@
+$gutter: 20px;
+
+.l-container {
+	margin: 0 auto;
+	max-width: 970px;
+	padding: 80px 0;
+}
+@media only screen and (max-width: 568px) {
+	.l-container {
+		padding: 60px 0;
+	}
+}
+
+.l-grid {
+	margin-right: -$gutter;
+	//font-size: 0;
+}
+.l-column {
+	display: inline-block;
+	padding-right: $gutter;
+	vertical-align: top;
+
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1024px) {
+	.l-desktop-one-whole {
+		width: 100%;
+	}
+	.l-desktop-one-half {
+		width: 50%;
+	}
+	.l-desktop-one-third {
+		width: 33.3333333333%;
+	}
+	.l-desktop-two-thirds {
+		width: 66.6666666666%
+	}
+	.l-desktop-one-quarter {
+		width: 25%;
+	}
+	.l-desktop-three-quarters {
+		width: 75%;
+	}
+	.l-desktop-one-sixth {
+		width: 16.66%;
+	}
+	.l-desktop-one-seventh {
+		width: 14.29%;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.l-tablet-one-whole {
+		width: 100%;
+	}
+	.l-tablet-one-half {
+		width: 50%;
+	}
+	.l-tablet-one-third {
+		width: 33.3333333333%;
+	}
+	.l-tablet-two-thirds {
+		width: 66.6666666666%
+	}
+}
+@media only screen and (max-width: 568px) {
+	.l-smartphone-one-whole {
+		width: 100%;
+	}
+	.l-smartphone-one-half {
+		width: 50%;
+	}
+}

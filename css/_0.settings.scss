@@ -1,0 +1,52 @@
+$black: #111;
+$brown: #554F50;
+$white: #fff;
+$white-1: #eee;
+$blue-1: #D3F4FA;
+$yellow-1: #F9C94A;
+
+$font-weight-bold: 600;
+$copy-font: "chaparral-pro", Georgia, serif;
+
+// Reset
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	color: $black;
+	background: $white;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+	display: block;
+}
+li {
+	list-style: none;
+}
+img {
+	border: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
