@@ -1,0 +1,19 @@
+.footer {
+	background: $blue-1;
+	color: $brown;
+	text-align: center;
+	padding: 40px 20px;
+	font-size: 14px;
+}
+.footer-text {
+	margin: 0;
+}
+.footer-link {
+	color: $blue-3;
+	text-decoration: none;
+	border-bottom: 1px solid $blue-3;
+}
+.footer-link:hover {
+	color: $brown;
+	border-bottom: 2px solid $yellow-1;
+}

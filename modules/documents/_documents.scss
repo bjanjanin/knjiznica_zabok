@@ -1,0 +1,30 @@
+.documents {
+	background: $brown;
+	padding: 0px 0;
+}
+.documents-title {
+	text-align: center;
+	color: $white-1;
+}
+.download-text {
+	font-size: 17px;
+	text-align: center;
+	color: $white-1;
+	margin-top: 1em;
+}
+.download-text em {
+	display: block
+}
+.download-link {
+	color: $yellow-1;
+	text-decoration: none;
+	border-bottom: 1px solid $brown-2;
+	margin-bottom: 11em;
+}
+.download-link:hover {
+	color: $white;
+	border-bottom: 2px solid $blue-2;
+}
+.informacije-text {
+	font-size: 17px;
+}
