@@ -1,5 +1,4 @@
 html {
-	border-top: 10px solid $yellow-1;
 	font: 62.5%/1.5 $copy-font;
 }
 body {
@@ -23,7 +22,6 @@ h1, h2, h3, h4 {
 
 .h2 {
 	font-size: 34px;
-	margin-bottom: .5em;
 	color: $brown;
 }
 
@@ -38,11 +36,12 @@ h1, h2, h3, h4 {
 }
 	@media only screen and (min-width: 600px) {
 		.h3 {
-			font-size: 15px;
-			font-size: 1.5rem;
+			font-size: 13px;
+			font-size: 1.3rem;
 		}
 	}
 
 .p {
 	margin: 1.5em 0;
+	color: $brown;
 }

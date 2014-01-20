@@ -1,0 +1,16 @@
+.metadata-item {
+	background: $yellow-1;
+	padding: 15px 30px;
+	margin-bottom: 20px;
+	font-size: 17px;
+	color: $brown;
+}
+.metadata-item-link {
+	text-decoration: none;
+	color: $brown;
+	border-bottom: 1px solid $brown;
+}
+.metadata-item-link:hover {
+	color: $brown;
+	border-bottom: 2px solid $white-1;
+}

@@ -1,0 +1,11 @@
+.info-access {
+	background: transparent;
+}
+	@media only screen and (max-width: 1000px) {
+		.info-access {
+			background: rgba(255,255,255,0.8);
+		}
+	}
+.info-access-text {
+	font-size: 17px;
+}

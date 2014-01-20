@@ -10,7 +10,10 @@
 }
 .catalogue-link {
 	color: $yellow-1;
+	text-decoration: none;
+	border-bottom: 1px solid $yellow-1;
 }
 .catalogue-link:hover {
 	color: $white-1;
+	border-bottom: 2px solid $white-1;
 }

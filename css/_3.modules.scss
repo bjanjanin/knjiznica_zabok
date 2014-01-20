@@ -3,31 +3,7 @@
 @import "_footer.scss";
 @import "_gallery.scss";
 @import "_documents.scss";
-
-
-.content {
-	background: $blue-1;
-}
-
-.work-hours {
-	background: $blue-1;
-	height: 500px;
-	border-bottom: 300px solid $brown
-}
-
-.work-hours-text {
-	font-size: 1.1em;
-	color: $brown;
-}
-
-
-
-.he {
-	font-size: 17px;
-	color: $brown;
-}
-.ss {
-	background: $yellow-1;
-	padding: 15px 30px;
-	margin-bottom: 20px
-}
+@import "_hours.scss";
+@import "_about.scss";
+@import "_metadata.scss";
+@import "_info-access";

@@ -41,7 +41,6 @@ pre {
   word-wrap: break-word; }
 
 html {
-  border-top: 10px solid #f9c94a;
   font: 62.5%/1.5 "chaparral-pro", Georgia, serif; }
 
 body {
@@ -60,7 +59,6 @@ h1, h2, h3, h4 {
 
 .h2 {
   font-size: 34px;
-  margin-bottom: .5em;
   color: #554f50; }
 
 .h3 {
@@ -74,15 +72,19 @@ h1, h2, h3, h4 {
 
 @media only screen and (min-width: 600px) {
   .h3 {
-    font-size: 15px;
-    font-size: 1.5rem; } }
+    font-size: 13px;
+    font-size: 1.3rem; } }
 .p {
-  margin: 1.5em 0; }
+  margin: 1.5em 0;
+  color: #554f50; }
+
+.l-content {
+  background: #d3f4fa; }
 
 .l-container {
   margin: 0 auto;
-  max-width: 920px;
-  padding: 60px 0; }
+  width: 940px;
+  padding: 60px 20px; }
 
 .l-grid {
   margin-right: -40px;
@@ -138,6 +140,12 @@ h1, h2, h3, h4 {
 
   .l-smartphone-one-half {
     width: 50%; } }
+.header {
+  background: transparent; }
+
+@media only screen and (max-width: 1000px) {
+  .header {
+    background: rgba(255, 255, 255, 0.8); } }
 .site-title {
   font-size: 78px;
   font-size: 7.8rem;
@@ -173,10 +181,13 @@ h1, h2, h3, h4 {
   font-size: 19px; }
 
 .catalogue-link {
-  color: #f9c94a; }
+  color: #f9c94a;
+  text-decoration: none;
+  border-bottom: 1px solid #f9c94a; }
 
 .catalogue-link:hover {
-  color: #eeeeee; }
+  color: #eeeeee;
+  border-bottom: 2px solid #eeeeee; }
 
 .footer {
   background: #d3f4fa;
@@ -198,22 +209,23 @@ h1, h2, h3, h4 {
   border-bottom: 2px solid #f9c94a; }
 
 .gallery {
-  background: #f9c94a;
-  height: 100px; }
+  background: #554f50;
+  height: 200px;
+  margin-left: -75%;
+  display: none; }
 
 .documents {
   background: #554f50;
-  padding: 0px 0; }
+  clear: both; }
 
 .documents-title {
-  text-align: center;
-  color: #eeeeee; }
+  color: #eeeeee;
+  margin-bottom: 1em; }
 
 .download-text {
   font-size: 17px;
-  text-align: center;
   color: #eeeeee;
-  margin-top: 1em; }
+  margin-bottom: 1.5em; }
 
 .download-text em {
   display: block; }
@@ -221,36 +233,52 @@ h1, h2, h3, h4 {
 .download-link {
   color: #f9c94a;
   text-decoration: none;
-  border-bottom: 1px solid #777071;
-  margin-bottom: 11em; }
+  border-bottom: 1px solid #777071; }
 
 .download-link:hover {
   color: white;
   border-bottom: 2px solid #5ea6b3; }
 
-.informacije-text {
-  font-size: 17px; }
-
-.content {
-  background: #d3f4fa; }
+.work-hours-title {
+  font-size: 13px;
+  font-size: 1.3rem; }
 
 .work-hours {
-  background: #d3f4fa;
-  height: 500px;
-  border-bottom: 300px solid #554f50; }
+  padding: 30px 0; }
 
 .work-hours-text {
-  font-size: 1.1em;
-  color: #554f50; }
+  font-size: 15px;
+  color: #554f50;
+  font-style: italic; }
 
-.he {
+.about-text {
   font-size: 17px;
   color: #554f50; }
 
-.ss {
+.metadata-item {
   background: #f9c94a;
   padding: 15px 30px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-size: 17px;
+  color: #554f50; }
+
+.metadata-item-link {
+  text-decoration: none;
+  color: #554f50;
+  border-bottom: 1px solid #554f50; }
+
+.metadata-item-link:hover {
+  color: #554f50;
+  border-bottom: 2px solid #eeeeee; }
+
+.info-access {
+  background: transparent; }
+
+@media only screen and (max-width: 1000px) {
+  .info-access {
+    background: rgba(255, 255, 255, 0.8); } }
+.info-access-text {
+  font-size: 17px; }
 
 @media print {
   * {
