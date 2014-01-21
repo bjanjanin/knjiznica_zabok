@@ -1,4 +1,11 @@
+.about {
+	background: $blue-1 url(bg.jpg);
+}
 .about-text {
 	font-size: 17px;
 	color: $brown;
+	margin: 0;
+}
+.about-text + .about-text {
+	text-indent: 1.5em;
 }

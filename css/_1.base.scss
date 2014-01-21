@@ -3,16 +3,14 @@ html {
 }
 body {
 	background-color: $white;
-	font-size: 17px;
-	font-size: 1.7rem;
 }
 
 .body {
-	background: url(1.jpg) no-repeat 26% 40px fixed;
+	background: url(1.jpg) no-repeat 26% 30px fixed;
 }
 	@media only screen and (max-width: 1000px) {
 		.body {
-			background: url(1.jpg) no-repeat center 40px fixed;
+			background: url(1.jpg) no-repeat center 30px fixed;
 		}
 	}
 
@@ -23,23 +21,18 @@ h1, h2, h3, h4 {
 .h2 {
 	font-size: 34px;
 	color: $brown;
+	margin-bottom: .5em;
 }
 
 .h3 {
-	font-size: 30px;
-	font-size: 3.0rem;
-	margin-bottom: .5em;
+	font-size: 13px;
+	font-size: 1.3rem;
+	line-height: 1.5em;
 	text-transform: uppercase;
 	font-weight: $font-weight-bold;
 	letter-spacing: 1px;
 	color: $brown;
 }
-	@media only screen and (min-width: 600px) {
-		.h3 {
-			font-size: 13px;
-			font-size: 1.3rem;
-		}
-	}
 
 .p {
 	margin: 1.5em 0;
