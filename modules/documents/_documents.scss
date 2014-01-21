@@ -13,7 +13,7 @@
 	margin-bottom: 1.5em;
 }
 .download-text em {
-	display: block
+	display: block;
 }
 .download-link {
 	color: $yellow-1;
@@ -21,6 +21,6 @@
 	border-bottom: 1px solid $brown-2;
 }
 .download-link:hover {
-	color: $white;
-	border-bottom: 2px solid $blue-2;
+	color: orange;
+	border-bottom: 2px solid orange;
 }

@@ -157,7 +157,7 @@ h1, h2, h3, h4 {
   color: #5ea6b3; }
 
 .site-title-city {
-  color: #f9c94a;
+  color: #f9c64d;
   font-weight: 600; }
 
 .catalogue {
@@ -190,13 +190,13 @@ h1, h2, h3, h4 {
   margin: 0; }
 
 .footer-link {
-  color: #006688;
+  color: #554f50;
   text-decoration: none;
-  border-bottom: 1px solid #006688; }
+  border-bottom: 1px solid #554f50; }
 
 .footer-link:hover {
-  color: #554f50;
-  border-bottom: 2px solid #f9c94a; }
+  color: #5ea6b3;
+  border-bottom: 2px solid #5ea6b3; }
 
 .gallery {
   background: #554f50;
@@ -226,8 +226,8 @@ h1, h2, h3, h4 {
   border-bottom: 1px solid #777071; }
 
 .download-link:hover {
-  color: white;
-  border-bottom: 2px solid #5ea6b3; }
+  color: orange;
+  border-bottom: 2px solid orange; }
 
 .work-hours-title {
   font-size: 13px;
@@ -267,7 +267,7 @@ h1, h2, h3, h4 {
 
 .metadata-item-link:hover {
   color: #554f50;
-  border-bottom: 2px solid #eeeeee; }
+  border-bottom: 2px solid #554f50; }
 
 .info-access {
   background: transparent; }
