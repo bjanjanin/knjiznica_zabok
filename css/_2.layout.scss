@@ -18,7 +18,6 @@ $gutter: 30px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
 .l-desktop-one-whole {
 	width: 100%;
 }
@@ -43,8 +42,7 @@ $gutter: 30px;
 .l-desktop-one-seventh {
 	width: 14.29%;
 }
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 800px) {
 	.l-tablet-one-whole {
 		width: 100%;
 	}

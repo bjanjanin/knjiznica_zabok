@@ -1,9 +1,10 @@
 .footer {
-	background: $blue-1;
+	background: $blue-1 url(bg.jpg);
 	color: $brown;
 	text-align: center;
 	padding: 40px 20px;
 	font-size: 14px;
+	//border-bottom: 100px solid $white;
 }
 .footer-text {
 	margin: 0;

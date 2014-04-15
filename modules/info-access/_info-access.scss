@@ -1,11 +1,12 @@
 .info-access {
-	background: transparent;
+	background: url(gjalski-bg.jpg) no-repeat top center;
 }
-	@media only screen and (max-width: 1000px) {
+	@media only screen and (max-width: 570px) {
 		.info-access {
-			background: rgba(255,255,255,0.8);
+			background: #fff;
 		}
 	}
 .info-access-text {
 	font-size: 17px;
+	font-size: 1.7rem;
 }

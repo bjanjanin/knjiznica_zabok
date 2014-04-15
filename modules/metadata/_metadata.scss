@@ -4,11 +4,18 @@
 	margin-bottom: 20px;
 	font-size: 17px;
 	color: $brown;
+	word-break: hyphenate;
 }
+	@media only screen and (max-width: 481px) {
+		.metadata-item {
+			padding: 15px;
+		}
+	}
 .metadata-item-link {
 	text-decoration: none;
 	color: $brown;
 	border-bottom: 1px solid $brown;
+	//display: block;
 }
 .metadata-item-link:hover {
 	color: $brown;
